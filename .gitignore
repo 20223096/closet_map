@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+
+# Expo and build output
+.expo/
+dist/
+build/
+
+# OS and editor files
+.DS_Store
+*.log
+.watchman-cookie-*
+
+# Supabase local state
+supabase/.temp/
+

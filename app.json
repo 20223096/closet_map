@@ -1,0 +1,25 @@
+{
+  "expo": {
+    "name": "Closet Map",
+    "slug": "closet-map",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "scheme": "closetmap",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.closetmap.app",
+      "infoPlist": {
+        "NSLocationWhenInUseUsageDescription": "현재 위치 주변의 옷가게를 보여주기 위해 위치 권한을 사용합니다."
+      }
+    },
+    "android": {
+      "package": "com.closetmap.app",
+      "permissions": ["ACCESS_COARSE_LOCATION", "ACCESS_FINE_LOCATION"]
+    },
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}
